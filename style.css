@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.top-bar {
+	width: 100svw;
+	height: 50px;
+	background-image: linear-gradient(to right top, orange, purple);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+}
+
+.contact-container {
+	height: 100%;
+	width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.icon-container {
+	width: 150px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.icon-container div {
+	width: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70%;
+	border-left: 2px solid white;
+}
+
+.icon-container div:last-child {
+	border-right: 2px solid white;
+}
+
+.phone {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.email {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 3px;
+	border-left: 2px solid white;
+	padding-left: 5px;
+}
+
+.btn-consult {
+	height: 70%;
+	width: 150px;
+	border: 1.5px solid white;
+	border-radius: 2rem;
+	background: transparent;
+	color: white;
+	cursor: pointer;
+}
+
+.btn-consult:hover {
+	border: 2.5px solid black;
+	background-color: rgb(51, 27, 27);
+}
+
+.navbar {
+	width: 100vw;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: antiquewhite;
+	color: black;
+}
+
+.logo-container {
+	width: 240px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo-text {
+	font-size: 2rem;
+	font-weight: 900;
+}
+.logo {
+	width: 40px;
+	height: 40px;
+	background-image: url(logo.png);
+	background-size: cover;
+}
+.nav-btns {
+	width: 500px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.search {
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#search-input {
+	height: 30px;
+	width: 200px;
+	font-size: 1.2rem;
+	border-radius: 10px;
+}
+.search i {
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.hero-section {
+	width: 100vw;
+	height: 500px;
+	background-image: url(https://img.freepik.com/free-photo/specialist-explaining-his-ideas_1098-3690.jpg);
+	background-size: cover;
+	object-fit: fill;
+}
+
+.features {
+	width: 100vw;
+	height: 190px;
+	margin: 5px;
+	background-image: linear-gradient(to right top, orange, purple);
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.col {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 220px;
+	height: 70%;
+	color: white;
+}
+
+.col div i {
+	font-size: 1.1rem;
+}
+.col div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.2rem;
+	font-weight: 700;
+	gap: 15px;
+}
+
+.about {
+	width: 75vw;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.content {
+	width: 45%;
+	height: 90%;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.about-image {
+	width: 45%;
+	height: 100%;
+	background-image: url(about-image.jpg);
+	background-size: cover;
+}
+
+#about-head {
+	width: 150px;
+	font-size: 1.6rem;
+	font-weight: 900;
+	border-bottom: 3px solid black;
+}
+
+.content :nth-child(2) {
+	margin-top: 20px;
+	font-size: 1.1rem;
+	font-weight: 700;
+}
+.content :nth-child(3) {
+	margin-top: 20px;
+}
+
+#btn-rd {
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+	background-image: linear-gradient(to right top, orange, purple);
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+#btn-rd:hover {
+	border: 2px solid black;
+	background-color: rgb(51, 27, 27);
+}
+
+.services {
+	width: 75vw;
+	height: 400px;
+	padding: 20px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgb(238, 235, 235);
+}
+.service-image-container {
+	height: 80%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.service-image1 {
+	width: 350px;
+	height: 200px;
+	background-image: url(https://image.coolblue.nl/content/305c0f9c1f8a0441e82230401df998b7);
+	background-size: cover;
+}
+.service-image2 {
+	width: 350px;
+	height: 200px;
+	background-image: url(https://s3.envato.com/files/235783482/syda_0242392.jpg);
+	background-size: cover;
+}
+.service-image3 {
+	width: 350px;
+	height: 200px;
+	background-image: url(https://media.istockphoto.com/id/1269045922/photo/two-graphic-designer-brainstorming-meeting-and-drawing-on-graphics-tablet-at-workplace.webp?b=1&s=170667a&w=0&k=20&c=41pxY2fZGWHZ0k9rpyMAM8NN_hP5JJomhhdzEy9Be3U=);
+	background-size: cover;
+}
+
+.services :nth-child(1) {
+	border-bottom: 3px solid black;
+	font-size: 1.6rem;
+	font-weight: 900;
+}
+#service-head {
+	width: 200px;
+	border-bottom: 3px solid black;
+	font-size: 1.6rem;
+	font-weight: 900;
+}
